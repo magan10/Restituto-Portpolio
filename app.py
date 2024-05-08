@@ -19,7 +19,7 @@ resume_file = current_dir / "assets" / "RestitutoPDF.pdf"
 earthquake_data = current_dir / "images"/ "good_tableau project.png"
 covid_data = current_dir / "images"/ "covid_data.png"
 profile = current_dir  / "images"/ "profile.jpg"
-freecodecamp_cert = current_dir / "images" / "certificates" / "cert" / "data_analysis_certification_freecodecamp.PNG"
+freecodecamp_cert = current_dir / "images" / "certificates" / "cert" / "data_analysis_certification_freecodecamp.png"
 Coursera_cert_financial_analysis = current_dir / 'images' / 'certificates'/ 'other_cert' / "Coursera_PSFA.png"
 banner = current_dir / "images" / "banner.png"
 
