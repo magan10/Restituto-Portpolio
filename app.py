@@ -16,11 +16,11 @@ st.set_page_config(
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "RestitutoPDF.pdf"
-earthquake_data = current_dir / "images"/ "good_tableau project.PNG"
-covid_data = current_dir / "images"/ "covid_data.PNG"
+earthquake_data = current_dir / "images"/ "good_tableau project.png"
+covid_data = current_dir / "images"/ "covid_data.png"
 profile = current_dir  / "images"/ "profile.jpg"
 freecodecamp_cert = current_dir / "images" / "certificates" / "cert" / "data_analysis_certification_freecodecamp.PNG"
-Coursera_cert_financial_analysis = current_dir / 'images' / 'certificates'/ 'other_cert' / 'Coursera_PSFA.PNG'
+Coursera_cert_financial_analysis = current_dir / 'images' / 'certificates'/ 'other_cert' / "Coursera_PSFA.png"
 banner = current_dir / "images" / "banner.png"
 
 with open(css_file) as f:
