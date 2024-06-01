@@ -108,7 +108,7 @@ details_aboutme = """
                         <ul>
                                 <li><b>Address:</b> Manila, Philippines</li>
                                 <li><b>Email:</b> restitutorodeo@gmail.com</li>
-                                <li></i><b>Spoken Langages:</b> Tagalog, English</li>
+                                <li></i><b>Spoken Languages:</b> Tagalog, English</li>
                                 <li><b>Telegram:</b> <i><a href="https://t.me/Restituto_Rodeo" class="link">@Restituto_Rodeo</a></i></li>
                         </ul>
                 </div>
