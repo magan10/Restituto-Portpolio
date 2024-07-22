@@ -129,7 +129,7 @@ st.write('\n')
 
 ##################### Projects
 
-Tableau,PowerBi , Excel , Python = st.tabs(["Tableau" , "Power Bi", "Excel" , "Python"])
+Tableau,PowerBi , Excel , Python ,SQL = st.tabs(["Tableau" , "Power Bi", "Excel" , "Python", "SQL"])
 with st.container():
     with Tableau:
         txt(earthquake_image,
@@ -145,8 +145,15 @@ with st.container():
             " Global COVID-19 Mortality Trends: \n Analysis of Deaths and Fatality Rates Across Continents",
             """Exploring the Dynamics of COVID-19 Mortality Patterns and Fatality Rates on a Global Scale, 
             Unveiling Insights into Regional Disparities and Implications for Public Health Strategies.""",covid_link)
-
- # not yet finnish missig excel and python
+            # Power bi
+    with PowerBi:
+        st.write("PowerBI")
+    with Excel:
+        st.write("Excel")
+    with Python:
+        st.write("Python")
+    with SQL:
+        st.write("SQL")
 
 ##################### Skills
 
