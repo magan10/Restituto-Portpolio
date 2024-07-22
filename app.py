@@ -153,7 +153,10 @@ with st.container():
     with Python:
         st.write("Python")
     with SQL:
-        st.write("SQL")
+        txt(covid_image,
+            " Global COVID-19 Mortality Trends: \n Analysis of Deaths and Fatality Rates Across Continents",
+            """Exploring the Dynamics of COVID-19 Mortality Patterns and Fatality Rates on a Global Scale, 
+            Unveiling Insights into Regional Disparities and Implications for Public Health Strategies.""",covid_link)
 
 ##################### Skills
 
