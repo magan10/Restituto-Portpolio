@@ -18,6 +18,7 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "RestitutoPDF.pdf"
 earthquake_data = current_dir / "images"/ "good_tableau_project.png"
 covid_data = current_dir / "images"/ "covid_data.png"
+nashville = current_dir / "images" / "github_qsl.png"
 profile = current_dir  / "images"/ "profile.jpg"
 freecodecamp_cert = current_dir / "images" / "certificates" / "cert" / "data_analysis_certification_freecodecamp.png"
 Coursera_cert_financial_analysis = current_dir / 'images' / 'certificates'/ 'other_cert' / "Coursera_PSFA.png"
@@ -30,6 +31,7 @@ st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 image = Image.open(profile)
+nashville_image = Image.open(nashville)
 earthquake_image = Image.open(earthquake_data)
 covid_image = Image.open(covid_data)
 fcc = Image.open(freecodecamp_cert)
@@ -42,6 +44,7 @@ ban = Image.open(banner)
 ################################ Links
 earthquake_link = "https://public.tableau.com/views/Philippine_Earthquake_Data2020-2024/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link"
 covid_link = "https://public.tableau.com/views/CovidDashboard_17084094170250/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link"
+github_link = "https://github.com/magan10/nashville_sql_queries_posgress"
 
 ################################ lottie function
 def get(lottie:str):
@@ -153,11 +156,15 @@ with st.container():
     with Python:
         st.write("Python")
     with SQL:
-        txt(covid_image,
-            " Global COVID-19 Mortality Trends: \n Analysis of Deaths and Fatality Rates Across Continents",
-            """Exploring the Dynamics of COVID-19 Mortality Patterns and Fatality Rates on a Global Scale, 
-            Unveiling Insights into Regional Disparities and Implications for Public Health Strategies.""",covid_link)
+        txt(nashville_image,
+            " Nashville Data Cleaning Project",
+            """Overview:
+            This project focuses on cleaning the Nashville dataset to prepare it for analysis. It involves fixing missing values, correcting inconsistencies, and standardizing the data.
 
+            Objectives:
+            Clean and preprocess the dataset
+            Fix data inconsistencies and errors
+            Prepare the data for accurate analysis""",github_link)
 ##################### Skills
 
 st.write("###")
