@@ -98,7 +98,7 @@ details_aboutme = """
         <div class="flex-container">
                 <div class="flex-columns">
                         <ul>
-                                /* <li><b>Date of birth:</b> 10 March 2000</li> */
+                                # <li><b>Date of birth:</b> 10 March 2000</li> 
                                 <li><b>Nationality:</b> Filipino</li>
                                 <li><b>Freelance:</b> N/A</li>
                                 <li><b>Phone:</b> +639602498779</li>
