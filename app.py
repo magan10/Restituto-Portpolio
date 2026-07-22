@@ -93,7 +93,8 @@ def textcolcon(title,details,link):
             st.write(title)
             st.write('---')
             st.write(details)
-            st.write(f'##### [Go to Certificate...]({link})')
+            # st.write(f'##### [Go to Certificate...]({link})')
+            st.link_button("Go to Certificate...", link)        
 ################################ Assets
 
 st.markdown(css.header, unsafe_allow_html=True)
