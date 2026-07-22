@@ -74,7 +74,8 @@ def txt(a,b,c,link):
         st.write("#")
         st.write('\n')
         st.caption(c)
-        st.markdown(f"[Go to Project...]({link})")
+        # st.markdown(f"[Go to Project...]({link})")
+        st.link_button("Go to Project...", link)
 
 def txt1(a,b):
     txtcol1, txtcol2 = st.columns([1,1])
