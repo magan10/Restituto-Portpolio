@@ -32,7 +32,8 @@ st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 with open(resume_file1, "rb") as pdf_file1:
-    PDFbyte1 = pdf_file.read()
+    PDFbyte1 = pdf_file1.read()
+        
 image = Image.open(profile)
 nashville_image = Image.open(nashville)
 earthquake_image = Image.open(earthquake_data)
