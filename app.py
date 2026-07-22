@@ -126,7 +126,7 @@ with st.container():
             mime="application/octet-stream")
         st.download_button(
             label=" 📄 Download Resume CSR",
-            data=PDFbyte1,
+            data=PDFbyte,
             file_name1=resume_file1.name,
             mime="application/octet-stream")
 
