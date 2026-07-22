@@ -16,6 +16,7 @@ st.set_page_config(
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "RestitutoPDF.pdf"
+resume_file1 = current_dir / "assets" / "Restituto_Rodeo_CSR_resume.pdf"
 earthquake_data = current_dir / "images"/ "good_tableau_project.png"
 covid_data = current_dir / "images"/ "covid_data.png"
 nashville = current_dir / "images" / "github_qsl.PNG"
@@ -30,6 +31,8 @@ st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
+with open(resume_file1, "rb") as pdf_file1:
+    PDFbyte1 = pdf_file1.read()
 image = Image.open(profile)
 nashville_image = Image.open(nashville)
 earthquake_image = Image.open(earthquake_data)
@@ -120,6 +123,11 @@ with st.container():
             label=" 📄 Download Resume",
             data=PDFbyte,
             file_name=resume_file.name,
+            mime="application/octet-stream")
+        st.download_button(
+            label=" 📄 Download Resume CSR",
+            data=PDFbyte1,
+            file_name1=resume_file1.name,
             mime="application/octet-stream")
 
 st.write("###")
