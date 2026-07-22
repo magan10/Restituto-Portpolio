@@ -1,4 +1,4 @@
-
+""" <!-- Valid code to hide or comment a code  -->"""
 
 header = """
         <div class="nav-bar">
