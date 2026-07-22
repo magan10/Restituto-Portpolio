@@ -149,7 +149,7 @@ with st.container():
             """Exploring the Dynamics of Earthquake Occurrences and Patterns in the Philippines
             over a Five-Year Period, Unveiling Insights into Seismic Activity and Its Implications
                 for Disaster Preparedness and Mitigation Efforts.""")
-            st.link_button("View Tableau Project", earthquake_link)
+        st.link_button("View Tableau Project", earthquake_link)
 
         st.write("#")
         st.write("#")
