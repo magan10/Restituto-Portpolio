@@ -128,7 +128,7 @@ with st.container():
         st.download_button(
             label=" 📄 Download Resume CSR",
             data=PDFbyte1,
-            file_name1=resume_file_1.name,
+            file_name=resume_file_1.name,
             mime="application/octet-stream")
 
 st.write("###")
