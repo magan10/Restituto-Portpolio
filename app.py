@@ -148,8 +148,7 @@ with st.container():
             " Analyzing Seismic Activity: \n A Study of Earthquakes in the Philippines (2020-2024)",
             """Exploring the Dynamics of Earthquake Occurrences and Patterns in the Philippines
             over a Five-Year Period, Unveiling Insights into Seismic Activity and Its Implications
-                for Disaster Preparedness and Mitigation Efforts.""","")
-        st.link_button("View Tableau Project", earthquake_link)
+                for Disaster Preparedness and Mitigation Efforts.""", earthquake_link)
 
         st.write("#")
         st.write("#")
